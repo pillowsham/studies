@@ -21,6 +21,6 @@ def p47(n):
 
   return None
 
-print(p47(2))
-print(p47(3))
+assert p47(2) == 14
+assert p47(3) == 644
 print(p47(4))
